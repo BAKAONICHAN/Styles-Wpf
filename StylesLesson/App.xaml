@@ -1,0 +1,11 @@
+﻿<Application x:Class="StylesLesson.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:StylesLesson"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="butterBackground" Color="Red"/>
+        <SolidColorBrush x:Key="butterForeground" Color="Green"/>
+        <Thickness x:Key="buttonBorderThickness" Bottom="0" Left="0" Right="0"/>
+    </Application.Resources>
+</Application>
